@@ -1,5 +1,5 @@
 {
-    "name": "JRM93/craft-tracedock",
+    "name": "jrm93/craft-tracedock",
     "description": "An unofficial plugin to include Tracedock snippet to your Craft website",
     "type": "craft-plugin",
     "version": "1.0.0",
@@ -11,14 +11,14 @@
         "tracedock"
     ],
     "support": {
-        "docs": "https://github.com/adwise/craft-tracedock/blob/master/README.md",
-        "issues": "https://github.com/adwise/craft-wtracedock/issues"
+        "docs": "https://github.com/jrm93/craft-tracedock/blob/master/README.md",
+        "issues": "https://github.com/jrm93/craft-wtracedock/issues"
     },
     "license": "MIT",
     "authors": [
         {
-            "name": "JRM93",
-            "homepage": "https://github.com/JRM93"
+            "name": "jrm93",
+            "homepage": "https://github.com/jrm93"
         }
     ],
     "require": {
@@ -32,9 +32,9 @@
     "extra": {
         "name": "Tracedock",
         "handle": "tracedock",
-        "developer": "JRM93",
+        "developer": "jrm93",
         "developerUrl": "https://www.adwise.nl/",
-        "documentationUrl": "https://github.com/JRM93/craft-tracedock/blob/master/README.md",
+        "documentationUrl": "https://github.com/jrm93/craft-tracedock/blob/master/README.md",
         "class": "adwise\\tracedock\\Tracedock"
     }
 }
