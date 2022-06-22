@@ -1,8 +1,8 @@
 # Tracedock plugin for Craft CMS 3.x
 
-This plugin allows you to implement the Tracedock snippet to your website without adding it to the Twig files and configuring from the admin.
+This plugin allows you to implement the Tracedock snippet to your website without adding it to the Twig files. Configuration can be done via the admin. Tracedock should not be implemented via Google Tag Manager and so direct injection into the head section is neccesary.
 
-This is an unofficial plugin! For support please open an issue.
+This is an unofficial plugin! For support please open an issue in this Github repo.
 
 ## Requirements
 
