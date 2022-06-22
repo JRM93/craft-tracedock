@@ -28,6 +28,8 @@ Go to Settings > Tracedock and input the needed settings. These can be found in 
 
 ## Tracedock Roadmap
 
+* Make plugin multisite compatible
+
 Please open an issue if you encounter any problems or have a feature request.
 
 Brought to you by [JRM93](https://www.adwise.nl/)
