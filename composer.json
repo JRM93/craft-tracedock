@@ -1,0 +1,40 @@
+{
+    "name": "JRM93/craft-tracedock",
+    "description": "An unofficial plugin to include Tracedock snippet to your Craft website",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "tracedock"
+    ],
+    "support": {
+        "docs": "https://github.com/adwise/craft-tracedock/blob/master/README.md",
+        "issues": "https://github.com/adwise/craft-wtracedock/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "JRM93",
+            "homepage": "https://github.com/JRM93"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "adwise\\tracedock\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Tracedock",
+        "handle": "tracedock",
+        "developer": "JRM93",
+        "developerUrl": "https://www.adwise.nl/",
+        "documentationUrl": "https://github.com/JRM93/craft-tracedock/blob/master/README.md",
+        "class": "adwise\\tracedock\\Tracedock"
+    }
+}

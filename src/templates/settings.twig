@@ -1,0 +1,46 @@
+{# @var craft \craft\web\twig\variables\CraftVariable #}
+{#
+/**
+ * Tracedock plugin for Craft CMS 3.x
+ *
+ * Tracedock Settings.twig
+ *
+ * @author    JRM93
+ * @copyright Copyright (c) 2022 JRM93
+ * @link      https://github.com/JRM93
+ * @package   Tracedock
+ * @since     1.0.0
+ */
+#}
+
+{% import "_includes/forms" as forms %}
+
+{% do view.registerAssetBundle("adwise\\tracedock\\assetbundles\\tracedock\\TracedockAsset") %}
+
+{{ forms.lightswitchField({
+    label:        "Active",
+    instructions: "This switch activate/de-activate the javascript snippet",
+    id:           'active',
+    name:         'active',
+    on:           settings.active,
+    errors:       settings.getErrors('active')})
+}}
+
+{{ forms.textField({
+    label: 'Tracedock domain',
+    instructions: 'Enter your domain here (E.g. example.com).',
+    id: 'domain',
+    name: 'domain',
+    value: settings['domain']})
+}}
+
+{{ forms.textField({
+    label: 'Tracedock URL',
+    instructions: 'Enter your custom Tracedock URL here (E.g. https://fjar.example.com/fluj.js).',
+    id: 'url',
+    name: 'url',
+    value: settings['url'],
+    errors: settings.getErrors('url')})
+}}
+<br>
+This plugin is no official Tracedock plugin. For support contact support@adwise.nl
