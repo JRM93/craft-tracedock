@@ -22,6 +22,8 @@ To install the plugin, follow these instructions.
 
 3. In the Control Panel, go to Settings → Plugins and click the “Install” button for Tracedock.
 
+Alternatively you could install the plugin via de plugin admin directly.
+
 ## Configuring Tracedock
 
 Go to Settings > Tracedock and input the needed settings. These can be found in your Tracedock account page.
